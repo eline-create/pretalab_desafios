@@ -1,0 +1,22 @@
+{
+  "name": "pretalab_desafios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eline-create/pretalab_desafios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eline-create/pretalab_desafios/issues"
+  },
+  "homepage": "https://github.com/eline-create/pretalab_desafios#readme",
+  "dependencies": {
+    "coverage": "^0.4.1"
+  }
+}
