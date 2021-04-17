@@ -7,9 +7,31 @@ Já de cara ele nos informa que tem tido muitos problemas desde passou a utiliza
 Depois de entendermos os problema por parte do cliente, nós partimos para a investigação de regras de negócio implementadas no sistema e para o seu código. Com isso podemos perceber alguns comportamentos como por exemplo o fato de só existir um usuário para todo o sistema, pois quando foi projetado o sistema de agendamento, o nosso cliente não possuía funcionários em sua petshop, com isso todos os funcionários utilizam o mesmo usuário e senha para realizar os agendamentos. Ao fazer um teste de agendamento podemos perceber que conseguimos cadastrar um agendamento sem preencher todos os dados que deveriam ser obrigatórios e que evitariam muitos problemas na hora de atender o cliente. 
 
 
-
-
 RESPOSTAS:
+
+FLUXO DE MEDIDAS 
+
+- Controle de usários;
+- Definir permissões que cada usuário pode ter no sistema;
+- Colocar alguns campos obrigatórios de preenchimento;
+- Uso de testes automatizados e ORM para impedir alguns bugs;
+- É preciso fazer um backup do Banco de Dados de forma sistemática;
+
+Seguindo os diagramas: (Zalba Monteiro)
+
+- Falta de auditoria;
+- Ausência de sistema de autorização/permissão;
+- Validação de horário (Código e/ou Banco de dados);
+- Validar campos obrigatórios; 
+- ORM de validação dos campos nas consultas;
+- Testes;
+- Backup do BD.
+
+
+
+
+
+
 
 
 
